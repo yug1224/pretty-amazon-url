@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Pretty Amazon URL",
+  "description": "",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": ["https://www.amazon.co.jp/*"]
+    }
+  ]
+}
